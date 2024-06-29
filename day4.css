@@ -1,0 +1,40 @@
+
+.container{
+    border: 3px solid  #55AD9B;
+    width: 50%;
+    margin: auto;
+    margin-top: 20vh;
+    padding:5%;
+    border-radius: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#D8EFD3;
+}
+h1{
+    text-align: center;
+}
+.input{
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  /* margin: 10px 10px 10px 10px ;top left buttom right -> works in anticlockwise direction */
+}
+button{
+    width: 150px;
+    height:40px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: none;
+    background-color: #55AD9B;
+    color: white;
+}
+.btn{
+    text-align: center;
+}
+button:hover{
+    background-color:#95D2B3;
+    border: none;   
+}
+.input:hover{
+    border:2px solid #D8EFD3;
+}

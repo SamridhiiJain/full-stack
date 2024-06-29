@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0px;
+    list-style-type: none;
+    display:flex;
+    background-color: aqua;
+    padding: 10px 0px 10px 0px;
+}
+li a{
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+.itemlist1{
+    background-color:yellow;
+}
+.itemlist2:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.itemlist3:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.btn{
+margin-left: 900px;
+}
+button{
+    margin: 0px;
+    padding: 0px;
+   background-color: aqua;
+   border: none;
+   padding-inline: 10px;
+}
+button:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:700px){
+   .btn{
+    margin-left: 100px;
+   }
+   .container{
+    
+   }
+}
