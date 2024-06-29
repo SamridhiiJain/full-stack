@@ -14,13 +14,14 @@ h1{
 }
 .input{
   width: 100%;
+  height: 4cap;
   margin-bottom: 5%;
   margin-top: 5%;
   /* margin: 10px 10px 10px 10px ;top left buttom right -> works in anticlockwise direction */
 }
 button{
     width: 150px;
-    height:40px;
+    height:60px;
     border-radius: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
