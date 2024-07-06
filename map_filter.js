@@ -21,7 +21,7 @@ let eveno= num1.filter((y)=>{return y%2==0})
 console.log(eveno);
 
 let price1=[2000,400,900,300,1000,900]
-let newprice1=price1.filter((p)=>{return (p>900 && p<2000)})
+let newprice1=price1.filter((p)=>{return (p>900 && p<2000)}) 
 console.log(newprice1);
 
 
