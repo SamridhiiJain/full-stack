@@ -52,6 +52,17 @@ function ad( a1, b1){
 }
 ad(10 , 7)
 
+
 //default parameters
 
 //rest parameters
+
+
+//difference between method and function
+//for each -> only used for arrays -> it is a method
+let num=["sam","sami","sammy","samridhi"]
+num.forEach((n)=>{
+console.log(n.toUpperCase());
+})
+
+//higher order function-> takes function as a parameter
