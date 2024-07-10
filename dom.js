@@ -1,14 +1,14 @@
-let element
+// let element
 
 // element = document.getElementById("header").innerText
 // element = document.getElementById("header").innerHTML
 // element = document.getElementById("header").getAttribute("class")
 // element = document.getElementById("header").getAttribute("style")
 // element = document.getElementById("header").getAttributeNode("class")
-element = document.getElementById("header").attributes
+// element = document.getElementById("header").attributes
 
 
-console.log(element)
+// console.log(element)
 
 
 // let x=document.getElementById("header").innerText="hhiiii dom"
@@ -20,9 +20,16 @@ console.log(element)
 //querySelector-> target the first occurence of that css
 //querySelectorAll-> target the first occurence of that css
 
-let a=document.querySelectorAll("#header")
-console.log(a);
-let b=document.querySelectorAll("#header")[0]
-console.log(b);
-let c=document.querySelectorAll("#header")[1]
-console.log(c);
+// let a=document.querySelectorAll("#header")
+// console.log(a);
+// let b=document.querySelectorAll("#header")[0]
+// console.log(b);
+// let c=document.querySelectorAll("#header")[1]
+// console.log(c);
+// document.getElementById().addEventListener("click" ,functionName); =>ADD EVENT USING JS
+
+// let a= document.getElementById("dom").addEventListener("click" , function(){
+//  document.getElementById("dom").style.margin="100px"
+//  document.getElementById("dom").style.backgroundColor="black"
+// })
+// console.log(a);
